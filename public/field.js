@@ -34,6 +34,7 @@ export default class Field {
 	}
 
 	drawField () {
+		alert(this.mass.length);
 		ctx.drawImage(this.mass[0], 500, 500);
 		ctx.drawImage(this.mass[1], 600, 600);
 		ctx.drawImage(this.mass[2], 700, 700);

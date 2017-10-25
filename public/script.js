@@ -5,7 +5,9 @@ import Field from "./field.js";
 // let ctx = document.querySelector("canvas").getContext('2d');
 
 let z = new Field();
-z.drawField();
+window.onload = function () {
+	z.drawField();
+};
 
 //
 // let whitch = new Image();
